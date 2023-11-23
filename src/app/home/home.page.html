@@ -1,0 +1,31 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-title>
+      Firebase
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div id="container">
+   <ion-card>
+    <ion-card-content>
+      <ion-button expand="block" (click)="gravar()">
+        <ion-icon name="paw-outline" slot="start"></ion-icon>
+        <ion-label>Nova pessoa</ion-label>
+      </ion-button>
+    </ion-card-content>
+   </ion-card>
+
+   <ion-list>
+    <ion-item *ngFor="let p of pessoa">
+      <ion-label (click)="exibirPessoa(p.id)">
+        {{ p.nome }}
+        
+        
+      </ion-label>
+    </ion-item>
+  </ion-list>
+
+  </div>
+</ion-content>

@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "pets-b7682": {
+      "hosting": {
+        "app": [
+          "pets-b7682"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "pets-b7682"
+  }
+}

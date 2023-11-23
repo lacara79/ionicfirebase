@@ -1,0 +1,7 @@
+{
+  "name": "firenew",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
